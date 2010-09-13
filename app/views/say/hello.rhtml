@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Hello there</title>
+</head>
+<body>
+blah blah blah<%= 1+2%> <%= 1.hour.from_now%>
+
+<% 3.times do -%>
+eeeeeeeee
+<% end %>
+
+<% 3.downto(1) do |count| -%>
+<%= count%>weeeeee ….<br/>
+<%end%>
+<%= h("weeee this has %&<> html crazy characters!!")%>
+
+<p>It is now <%=@time%></p>
+<p><%= link_to "sayonara", :action=>"goodbye"%></p>
+</body>
+</html>
